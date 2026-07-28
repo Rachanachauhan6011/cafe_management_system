@@ -3,8 +3,8 @@ import image1 from "../../../assets/food_images/image1.png"
 import image2 from "../../../assets/food_images/image2.png"
 import image3 from "../../../assets/food_images/image3.png"
 import image4 from "../../../assets/food_images/image4.png"
-import image5 from "../../../assets/food_images/image4.png"
-import image6 from "../../../assets/food_images/image4.png"
+import image5 from "../../../assets/food_images/image5.png"
+import image6 from "../../../assets/food_images/image6.png"
 import { motion } from "framer-motion"
 import LoginForm from '../components/LoginForm'
 
