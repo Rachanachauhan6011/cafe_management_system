@@ -1,0 +1,94 @@
+/* ==========================================================================
+CAFE MANAGEMENT SYSTEM DESIGN SYSTEM
+Drop into src/index.css
+========================================================================== */
+
+html{scroll-behavior:smooth;}
+body{margin:0;background:#F8FAFC;color:#111827;font-family:Inter,system-ui,sans-serif;}
+
+/* BACKGROUND UTILITIES */
+.bg-main{background:#F8FAFC;}
+.bg-white{background:#FFF;}
+.bg-primary{background:#16A34A;}
+.bg-primary-dark{background:#14532D;}
+.bg-primary-light{background:#DCFCE7;}
+.bg-soft{background:#F0FDF4;}
+.bg-success{background:#22C55E;}
+.bg-warning{background:#F59E0B;}
+.bg-danger{background:#EF4444;}
+.bg-info{background:#3B82F6;}
+
+/* TEXT UTILITIES */
+.text-primary{color:#111827;}
+.text-secondary{color:#6B7280;}
+.text-white{color:#FFF;}
+.text-theme{color:#16A34A;}
+.text-success{color:#22C55E;}
+.text-warning{color:#F59E0B;}
+.text-danger{color:#EF4444;}
+.text-info{color:#2563EB;}
+
+/* BUTTONS - Use for CTA, Login, Checkout */
+.btn-primary{background:#16A34A;color:#FFF;border:none;padding:12px 22px;border-radius:12px;cursor:pointer;transition:.25s;}
+.btn-primary:hover{background:#15803D;}
+.btn-secondary{background:#FFF;color:#16A34A;border:1px solid #16A34A;padding:12px 22px;border-radius:12px;}
+.btn-danger{background:#EF4444;color:#FFF;border:none;padding:12px 22px;border-radius:12px;}
+.btn-warning{background:#F59E0B;color:#FFF;border:none;padding:12px 22px;border-radius:12px;}
+
+/* INPUTS - Forms & Search */
+.input{width:100%;padding:12px 16px;border:1px solid #D1D5DB;border-radius:12px;outline:none;}
+.input:focus{border-color:#16A34A;box-shadow:0 0 0 4px rgba(22,163,74,.15);}
+
+/* CARDS - Dashboard, Products, Analytics */
+.card{background:#FFF;border:1px solid #E5E7EB;border-radius:16px;padding:20px;box-shadow:0 4px 12px rgba(0,0,0,.05);}
+.card-hover:hover{transform:translateY(-4px);transition:.25s;box-shadow:0 12px 24px rgba(0,0,0,.08);}
+
+/* STATUS BADGES */
+.badge-success{background:#DCFCE7;color:#166534;padding:6px 12px;border-radius:999px;}
+.badge-warning{background:#FEF3C7;color:#92400E;padding:6px 12px;border-radius:999px;}
+.badge-danger{background:#FEE2E2;color:#991B1B;padding:6px 12px;border-radius:999px;}
+.badge-info{background:#DBEAFE;color:#1D4ED8;padding:6px 12px;border-radius:999px;}
+.badge-preparing{background:#EDE9FE;color:#6D28D9;padding:6px 12px;border-radius:999px;}
+
+/* SIDEBAR - Admin/Manager */
+.sidebar{background:#14532D;color:#FFF;}
+.sidebar-item{padding:12px 16px;border-radius:10px;}
+.sidebar-item.active,.sidebar-item:hover{background:#16A34A;}
+
+/* NAVBAR */
+.navbar{background:#FFF;border-bottom:1px solid #E5E7EB;}
+
+/* TABLES */
+.table{width:100%;border-collapse:collapse;}
+.table th{background:#F0FDF4;color:#14532D;}
+.table th,.table td{padding:14px;border-bottom:1px solid #E5E7EB;}
+
+/* ORDER STATUS */
+.order-pending{background:#FEF3C7;color:#92400E;}
+.order-accepted{background:#DBEAFE;color:#1D4ED8;}
+.order-preparing{background:#EDE9FE;color:#6D28D9;}
+.order-ready{background:#DCFCE7;color:#166534;}
+.order-served{background:#F3F4F6;color:#374151;}
+.order-cancelled{background:#FEE2E2;color:#991B1B;}
+
+/* GRADIENTS */
+.gradient-primary{background:linear-gradient(135deg,#16A34A,#22C55E);}
+.gradient-hero{background:linear-gradient(135deg,#14532D,#16A34A,#22C55E);}
+.gradient-soft{background:linear-gradient(135deg,#F0FDF4,#DCFCE7);}
+.gradient-dashboard{background:linear-gradient(135deg,#14532D,#166534);}
+.btn-gradient{background:linear-gradient(135deg,#16A34A,#22C55E);color:#FFF;border:none;padding:12px 22px;border-radius:12px;}
+.text-gradient{background:linear-gradient(90deg,#16A34A,#22C55E);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+
+/* SHADOWS */
+.shadow-sm{box-shadow:0 2px 8px rgba(0,0,0,.05);}
+.shadow{box-shadow:0 6px 18px rgba(0,0,0,.08);}
+.shadow-lg{box-shadow:0 12px 30px rgba(0,0,0,.12);}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:8px;}
+::-webkit-scrollbar-thumb{background:#16A34A;border-radius:20px;}
+::-webkit-scrollbar-track{background:#F3F4F6;}
+
+/* ANIMATION */
+.fade-in{animation:fadeIn .3s ease;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
